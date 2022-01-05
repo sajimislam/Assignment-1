@@ -7,9 +7,10 @@ h1{
     font-size: 50px;
 }
 .line{
-    border-left: 5px solid;
-    border-image: crimson;
-    border-image-slice: 1;
+    border-left: 6px solid crimson;
+    font-size: 30px;
+   
+    
 }
 .name{
     color: crimson ;
@@ -18,15 +19,18 @@ h1{
     display: flex;
     margin: 5px;
 }
-.half-width{
+#top{
+    margin-top: 30px;
+}
+.hum{
     width: 50%;
     padding-left: 5%;
 }
 
-.half-width img{
+.hum img{
     width: 80%;
     height: 80%;
-    border-radius: 200px;
+    border-radius: 50px;
     margin-right: 20px 40px;
     padding-right: 25px 45px;
 }
@@ -55,6 +59,7 @@ h1{
     margin-right: 15px;
     padding-left: 20px;
     border-radius: 10px;
+    padding-bottom: 10px;
     background-color: lightblue;
 }
 .mission-part img{
@@ -78,6 +83,7 @@ h1{
     margin-right: 15px;
     padding-left: 20px;
     border-radius: 10px;
+    padding-bottom: 10px;
     background-color: lightpink;
 }
 
@@ -95,6 +101,31 @@ h1{
     margin-right: 15px;
     padding-left: 20px;
     border-radius: 10px;
+    padding-bottom: 10px;
     background-color: lightsalmon;
 }
 
+.web-mission{
+    background-image: url(shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-right: 20px 30px;
+    background-size: 200px 200px;
+}
+.heading{
+    text-align: center;
+}
+.corona{
+    color: crimson;
+}
+.GO-CO{
+    color: crimson;
+}
+.footer{
+    text-align: center;
+    background: black;
+    color: white;
+}
+.footer-yr{
+    color: crimson;
+}
